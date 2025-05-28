@@ -49,6 +49,22 @@ export const SocialMedia = () => {
             </li>
           );
         })}
+        <li style={{ "--delay": "300ms" } as React.CSSProperties}>
+          <a
+            className="block social-media-icon"
+            href="/documents/luar_cv.pdf"
+            download
+            aria-label="Descargar CV"
+            title="Descargar CV"
+          >
+            <img
+              src="/cv.svg"
+              alt="CV"
+              className="h-6 w-6 transition-transform duration-200 ease-in-out scale-125 hover:scale-150 drop-shadow-[0_2px_1px_#4723a5] hover:drop-shadow-[0_2px_2px_#4723a5] brightness-0 invert object-contain"
+              style={{ width: "24px", height: "24px" }}
+            />
+          </a>
+        </li>
       </ul>
     </div>
   );

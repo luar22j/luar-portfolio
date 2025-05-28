@@ -1,0 +1,44 @@
+{
+  "e-commerce": {
+    "name": "Burgers & Roll",
+    "description": "Burgers & Roll es un e-commerce que consiste en un marketplace desarrollado íntegramente por mí, incluyendo el diseño, el frontend, el backend y la base de datos. Es un proyecto completo que he presentado en clase y ha sido valorado con un 9.",
+    "image": "primark.webp",
+    "link": "https://github.com/luar22j/primark-project",
+    "tecnologies": [
+      "Laravel",
+      "Spring Boot",
+      "TailwindCSS",
+      "JavaScript",
+      "jQuery",
+      "MySQL"
+    ]
+  },
+  "primark-project": {
+    "name": "Proyecto Primark",
+    "description": "Este proyecto, un clon del sitio web de Primark, fue donde aprendí los fundamentos de React y cómo funciona este potente framework. Al construir este sitio, adquirí experiencia práctica con la estructura de componentes de React, la gestión de estado y sus características clave. Este proyecto sentó las bases de mis habilidades en desarrollo front-end y me ayudó a entender cómo crear aplicaciones dinámicas y responsivas.",
+    "image": "primark.webp",
+    "link": "https://github.com/luar22j/primark-project",
+    "tecnologies": ["React", "TypeScript", "JavaScript", "TailwindCSS"]
+  },
+  "js-project": {
+    "name": "Proyecto JS",
+    "description": "En este proyecto, construido solo con HTML, CSS y JavaScript, aprendí los fundamentos esenciales de JavaScript junto con jQuery. Este proyecto me ayudó a comprender conceptos clave como la manipulación del DOM, el manejo de eventos y la interactividad básica, sentando una base sólida en el desarrollo front-end. Fue una gran introducción a la programación de elementos dinámicos y a mejorar la experiencia del usuario en la web.",
+    "image": "js.webp",
+    "link": "https://github.com/luar22j/messaging",
+    "tecnologies": ["JavaScript", "HTML", "CSS"]
+  },
+  "password-generator": {
+    "name": "Generador de Contraseñas",
+    "description": "Este proyecto es un Generador de Contraseñas construido con React y estilizado con Tailwind CSS. A través de este proyecto, reforcé mis habilidades en el diseño basado en componentes con React y aprendí a estilizar aplicaciones de manera eficiente con Tailwind CSS. Fue una experiencia valiosa crear una herramienta interactiva y funcional, y disfruté construyendo una interfaz limpia y fácil de usar que proporciona contraseñas seguras y aleatorias.",
+    "image": "password.webp",
+    "link": "https://github.com/luar22j/password-generator",
+    "tecnologies": ["React", "JavaScript", "TailwindCSS"]
+  },
+  "first-project": {
+    "name": "Primer Proyecto",
+    "description": "Este proyecto fue construido únicamente con HTML y CSS, sin utilizar Flexbox ni Grid. Al centrarme en lo básico, aprendí cómo funciona CSS desde cero: entendiendo selectores, posicionamiento, estilos de elementos y creando layouts sin depender de técnicas avanzadas. Esta experiencia me dio una base sólida en los fundamentos de CSS, que ahora aplico a diseños más complejos y responsivos.",
+    "image": "first.webp",
+    "link": "https://github.com/luar22j/first-project",
+    "tecnologies": ["HTML", "CSS"]
+  }
+}

@@ -1,0 +1,178 @@
+.bg-button {
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(200%);
+  }
+  80% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.title-animation {
+  animation: title-animation 500ms ease-in-out;
+}
+
+@keyframes title-animation {
+  0% {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.box-animation {
+  animation: reveal linear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 30%;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    translate: 0 100px;
+    scale: 0.9;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1;
+  }
+}
+
+.img-profile-animation {
+  animation: img-profile-animation 500ms ease-in-out;
+}
+
+@keyframes img-profile-animation {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+.profile-animation {
+  opacity: 0;
+  animation: profile-animation 400ms ease-in var(--delay, 0ms) forwards;
+}
+
+@keyframes profile-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Estilo para el texto seleccionado */
+::selection {
+  background-color: #4723a5;
+  color: white;
+}
+
+/* Para navegadores webkit (Chrome, Safari, etc.) */
+::-webkit-selection {
+  background-color: #4723a5;
+  color: white;
+}
+
+/* Para Firefox */
+::-moz-selection {
+  background-color: #4723a5;
+  color: white;
+}
+
+.social-media-icon {
+  opacity: 0;
+  animation: fadeIn 200ms ease-in-out var(--delay, 0ms) forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.footer-animation {
+  animation: fadeIn 200ms ease-in-out var(--delay, 0ms) forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.footer-hidden .text-animation {
+  animation-play-state: paused;
+}
+
+.footer-visible .text-animation {
+  animation-play-state: running;
+}
+
+.about-hidden .title-animation,
+.about-hidden .text-animation {
+  animation-play-state: paused;
+}
+
+.about-visible .title-animation,
+.about-visible .text-animation {
+  animation-play-state: running;
+}
+
+.experience-hidden .title-animation,
+.experience-hidden .bg-section,
+.experience-hidden .text-animation,
+.experience-hidden .components-animation,
+.experience-hidden .technology-button {
+  animation-play-state: paused;
+}
+
+.experience-visible .title-animation,
+.experience-visible .bg-section,
+.experience-visible .text-animation,
+.experience-visible .components-animation,
+.experience-visible .technology-button {
+  animation-play-state: running;
+}
+
+.projects-hidden .title-animation,
+.projects-hidden .bg-section,
+.projects-hidden .text-animation,
+.projects-hidden .components-animation {
+  animation-play-state: paused;
+}
+
+.projects-visible .title-animation,
+.projects-visible .bg-section,
+.projects-visible .text-animation,
+.projects-visible .components-animation {
+  animation-play-state: running;
+}

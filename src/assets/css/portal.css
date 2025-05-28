@@ -1,0 +1,78 @@
+:root {
+  --deg: 1;
+  --x: -50%;
+  --y: -50%;
+  --speed: 150ms;
+}
+
+.portal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(var(--x, -50%), var(--y, -50%)) rotate(0deg);
+  font-size: 20vmin;
+  width: 14rem;
+  height: 14rem;
+  border-radius: 90% 95% 85% 105%;
+  mix-blend-mode: screen;
+  filter: hue-rotate(0deg);
+  background: black;
+  box-shadow: 0 0 0.5em 0.2em #412097 inset, 0 0 0.15em 0 #412097;
+  -webkit-animation: wobble calc(var(--speed) * var(--t)) linear infinite;
+  animation: wobble calc(var(--speed) * var(--t)) linear infinite;
+  transform-origin: -var(--y) -var(--x);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portal::after {
+  font-size: 1em;
+  white-space: nowrap;
+}
+.portal:nth-child(1) {
+  --x: -53%;
+  --y: -53%;
+  --t: 37;
+}
+.portal:nth-child(2) {
+  --x: -47%;
+  --y: -52%;
+  --t: 58;
+}
+.portal:nth-child(3) {
+  --x: -45%;
+  --y: -50%;
+  --t: 46;
+}
+.portal:nth-child(4) {
+  --x: -53%;
+  --y: -45%;
+  --t: 72;
+}
+.portal:nth-child(5) {
+  --x: -55%;
+  --y: -45%;
+  --t: 62;
+}
+
+@-webkit-keyframes wobble {
+  to {
+    filter: hue-rotate(360deg);
+    transform: translate(var(--x), var(--y)) rotate(360deg);
+  }
+}
+
+@keyframes wobble {
+  to {
+    filter: hue-rotate(360deg);
+    transform: translate(var(--x), var(--y)) rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .portal {
+    width: 11rem;
+    height: 11rem;
+  }
+}

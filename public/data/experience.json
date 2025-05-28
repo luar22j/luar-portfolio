@@ -1,0 +1,46 @@
+{
+  "goil": {
+    "title": "Goil",
+    "description": "Recientemente he comenzado mi beca como desarrollador web, centrándome específicamente en el desarrollo front-end, en Goil. Estoy encantado de formar parte de un equipo tan solidario y talentoso, y estoy deseando seguir mejorando mis habilidades dentro de la empresa. Trabajar junto a profesionales talentosos aquí es una oportunidad fantástica, y estoy ilusionado por contribuir, aprender y crecer cada día. He aprendido mucho gracias a todo este proceso, a los seniors y a todos los programadores que me han ayudado durante el camino.",
+    "years": "agosto 2024 - junio 2025",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "TailwindCSS",
+      "HTML",
+      "CSS",
+      "MongoDB",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.goil.app/"
+  },
+  "daw": {
+    "title": "DAW",
+    "description": "Actualmente estoy cursando un programa de formación profesional superior en desarrollo web (DAW) en el INS Camí de Mar en Calafell. Este programa me está proporcionando una base sólida en programación y me está enseñando cómo abordar los desafíos de codificación de manera efectiva cada día. Estoy adquiriendo habilidades valiosas y construyendo una lógica de programación sólida, que aplico a mis proyectos y sigo desarrollando a medida que crezco en el campo.",
+    "years": "septiembre 2023 - junio 2025",
+    "technologies": [
+      "Laravel",
+      "Spring Boot",
+      "TypeScript",
+      "TailwindCSS",
+      "Vue.js",
+      "JavaScript",
+      "Python",
+      "HTML",
+      "CSS",
+      "PHP",
+      "SQL",
+      "MySQL",
+      "MongoDB",
+      "Node.js",
+      "Vite",
+      "Docker",
+      "Git",
+      "GitHub",
+      "GitLab"
+    ],
+    "link": "https://www.inscamidemar.cat/"
+  }
+}

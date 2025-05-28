@@ -2,7 +2,7 @@
   "e-commerce": {
     "name": "Burgers & Roll",
     "description": "Burgers & Roll es un e-commerce que consiste en un marketplace desarrollado íntegramente por mí, incluyendo el diseño, el frontend, el backend y la base de datos. Es un proyecto completo que he presentado en clase y ha sido valorado con un 9.",
-    "image": "primark.webp",
+    "image": "burgers.webp",
     "link": "https://github.com/luar22j/primark-project",
     "tecnologies": [
       "Laravel",

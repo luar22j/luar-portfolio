@@ -1,4 +1,11 @@
 {
+  "primark-project": {
+    "name": "Proyecto Primark",
+    "description": "Este proyecto, un clon del sitio web de Primark, fue donde aprendí los fundamentos de React y cómo funciona este potente framework. Al construir este sitio, adquirí experiencia práctica con la estructura de componentes de React, la gestión de estado y sus características clave. Este proyecto sentó las bases de mis habilidades en desarrollo front-end y me ayudó a entender cómo crear aplicaciones dinámicas y responsivas.",
+    "image": "primark.webp",
+    "link": "https://github.com/luar22j/primark-project",
+    "tecnologies": ["React", "TypeScript", "JavaScript", "TailwindCSS"]
+  },
   "e-commerce": {
     "name": "Burgers & Roll",
     "description": "Burgers & Roll es un e-commerce que consiste en un marketplace desarrollado íntegramente por mí, incluyendo el diseño, el frontend, el backend y la base de datos. Es un proyecto completo que he presentado en clase y ha sido valorado con un 9.",
@@ -12,13 +19,6 @@
       "jQuery",
       "MySQL"
     ]
-  },
-  "primark-project": {
-    "name": "Proyecto Primark",
-    "description": "Este proyecto, un clon del sitio web de Primark, fue donde aprendí los fundamentos de React y cómo funciona este potente framework. Al construir este sitio, adquirí experiencia práctica con la estructura de componentes de React, la gestión de estado y sus características clave. Este proyecto sentó las bases de mis habilidades en desarrollo front-end y me ayudó a entender cómo crear aplicaciones dinámicas y responsivas.",
-    "image": "primark.webp",
-    "link": "https://github.com/luar22j/primark-project",
-    "tecnologies": ["React", "TypeScript", "JavaScript", "TailwindCSS"]
   },
   "js-project": {
     "name": "Proyecto JS",

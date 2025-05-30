@@ -36,14 +36,15 @@ export const About = () => {
       </h1>
 
       <div className="text-animation text-gray-200">
-        Hola, soy Luar, un desarrollador full stack con 1 año de experiencia en
-        el campo, aunque me estoy especializando más en el front-end. Me
-        apasiona construir, aprender y crecer continuamente en la industria
-        tecnológica. Estoy ansioso por asumir proyectos de todos los tamaños y
-        complejidades, siempre con el objetivo de mejorar mis habilidades y
-        entregar un trabajo de calidad. Mi meta es seguir avanzando en este
-        campo en constante evolución, enfrentando nuevos desafíos y explorando
-        ideas innovadoras. ¡Vamos a crear algo increíble juntos!
+        Hola, soy Luar, desarrollador full stack con un año de experiencia en el
+        sector, aunque actualmente me estoy especializando en el desarrollo
+        front-end. Me apasiona construir, aprender y crecer continuamente en la
+        industria tecnológica. Estoy dispuesto a asumir proyectos de todo tipo,
+        sin importar su tamaño o complejidad, siempre con el objetivo de mejorar
+        mis habilidades y ofrecer un trabajo de calidad. Mi meta es seguir
+        avanzando en este campo en constante evolución, enfrentando nuevos
+        desafíos y explorando ideas innovadoras. ¡Estoy listo para crear algo
+        increíble juntos!
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ export const Profile = () => {
     <div className="flex flex-col sm:gap-5 gap-10">
       <div className="flex sm:items-center items-start sm:flex-row flex-col flex-wrap justify-between sm:gap-[100px] gap-10">
         <h1
-          className="flex order-2 sm:order-1 profile-animation text-gray-100 drop-shadow-[0_2px_10px_#4723a5] hover:drop-shadow-[0_2px_15px_#4723a5] text-5xl md:text-7xl font-bold cursor-pointer transition-all"
+          className="flex order-2 sm:order-1 profile-animation text-gray-100 drop-shadow-[0_2px_10px_#4723a5] hover:drop-shadow-[0_2px_15px_#4723a5] text-5xl md:text-7xl font-bold transition-all"
           style={{ "--delay": "0ms" } as React.CSSProperties}
         >
           Luar Jaén
@@ -20,7 +20,7 @@ export const Profile = () => {
             ))}
           </div>
           <img
-            className="relative z-10 min-h-40 min-w-40 h-40 w-40 md:h-52 md:w-52 shadow-[0_0_20px_#4723a5] rounded-full object-cover cursor-pointer"
+            className="relative z-10 min-h-40 min-w-40 h-40 w-40 md:h-52 md:w-52 shadow-[0_0_20px_#4723a5] rounded-full object-cover"
             src="./img/profile.webp"
             alt="Luar"
           />

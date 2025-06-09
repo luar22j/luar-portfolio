@@ -37,7 +37,8 @@ export const Profile = () => {
           className="profile-animation text-gray-400 md:text-lg text transition-all"
           style={{ "--delay": "300ms" } as React.CSSProperties}
         >
-          I build pixel-perfect, engaging, and accessible digital experiences.
+          Desarrollo aplicaciones web completas, robustas y escalables, tanto en
+          frontend como en backend.
         </p>
       </div>
     </div>

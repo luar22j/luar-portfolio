@@ -40,7 +40,7 @@ export const Project = () => {
   }, []);
 
   return (
-    <div ref={projectsRef} className="flex flex-col gap-5 projects-hidden">
+    <div ref={projectsRef} className="flex flex-col gap-8 projects-hidden">
       <h1 className="title-animation text-3xl font-bold drop-shadow-[0_2px_10px_#4723a5] text-gray-200">
         Proyectos
       </h1>

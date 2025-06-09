@@ -37,11 +37,11 @@ export const Experience = () => {
   }, []);
 
   return (
-    <div ref={experienceRef} className="flex flex-col gap-5 experience-hidden">
+    <div ref={experienceRef} className="flex flex-col gap-8 experience-hidden">
       <h1 className="title-animation text-3xl font-bold drop-shadow-[0_2px_10px_#4723a5] text-gray-200">
         Experiencia
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+      <div className="flex flex-col gap-8 w-full">
         {Object.entries(informationData).map(([key, item], index) => {
           const { title, description, years, technologies, link } =
             item as InformationItem & { link: string };
@@ -50,7 +50,7 @@ export const Experience = () => {
           return (
             <a
               key={key}
-              className="bg-section flex flex-col gap-5 transition-all p-7 pl-5 rounded-lg group hover:shadow bg-purple-900 bg-opacity-25 hover:bg-opacity-45 w-full cursor-pointer"
+              className="bg-section flex flex-col gap-5 transition-all p-7 pl-5 rounded-lg group hover:shadow bg-purple-900 bg-opacity-25 hover:bg-opacity-45 cursor-pointer"
               style={{ "--delay": delay } as React.CSSProperties}
               href={link}
               target="_blank"

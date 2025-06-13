@@ -27,6 +27,13 @@
     "link": "https://github.com/luar22j/password-generator",
     "tecnologies": ["React", "JavaScript", "TailwindCSS"]
   },
+  "photo_gallery": {
+    "name": "Galería de Fotos",
+    "description": "Este proyecto es una Galería de Fotos que utiliza Vue.js y Ionic para crear una aplicación móvil. A través de este proyecto, aprendí a construir aplicaciones móviles con Vue.js y a utilizar Ionic para crear interfaces de usuario atractivas y responsivas. Fue una experiencia enriquecedora que me permitió explorar el desarrollo móvil y mejorar mis habilidades en la creación de aplicaciones interactivas y visualmente atractivas.",
+    "image": "photo_gallery.webp",
+    "link": "https://github.com/luar22j/photo-gallery",
+    "tecnologies": ["Vue.js", "Ionic", "JavaScript"]
+  },
   "js-project": {
     "name": "Proyecto JS",
     "description": "En este proyecto, construido solo con HTML, CSS y JavaScript, aprendí los fundamentos esenciales de JavaScript junto con jQuery. Este proyecto me ayudó a comprender conceptos clave como la manipulación del DOM, el manejo de eventos y la interactividad básica, sentando una base sólida en el desarrollo front-end. Fue una gran introducción a la programación de elementos dinámicos y a mejorar la experiencia del usuario en la web.",

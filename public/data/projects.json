@@ -32,7 +32,7 @@
     "description": "Este proyecto es una Galería de Fotos que utiliza Vue.js y Ionic para crear una aplicación móvil. A través de este pequeño proyecto, aprendí a construir pequeñas aplicaciones móviles con Vue.js y a utilizar Ionic para crear interfaces de usuario.",
     "image": "photo_gallery.webp",
     "link": "https://github.com/luar22j/photo-gallery",
-    "tecnologies": ["Vue.js", "Ionic", "JavaScript"]
+    "tecnologies": ["Vue.js", "Ionic", "TypeScript"]
   },
   "js-project": {
     "name": "Proyecto JS",

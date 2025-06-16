@@ -39,13 +39,6 @@
     "description": "En este proyecto, construido solo con HTML, CSS y JavaScript, aprendí los fundamentos esenciales de JavaScript junto con jQuery. Este proyecto me ayudó a comprender conceptos clave como la manipulación del DOM, el manejo de eventos y la interactividad básica, sentando una base sólida en el desarrollo front-end. Fue una gran introducción a la programación de elementos dinámicos y a mejorar la experiencia del usuario en la web.",
     "image": "js.webp",
     "link": "https://github.com/luar22j/js-project",
-    "tecnologies": ["JavaScript", "HTML", "CSS"]
-  },
-  "first-project": {
-    "name": "Primer Proyecto",
-    "description": "Este proyecto fue construido únicamente con HTML y CSS, sin utilizar Flexbox ni Grid. Al centrarme en lo básico, aprendí cómo funciona CSS desde cero: entendiendo selectores, posicionamiento, estilos de elementos y creando layouts sin depender de técnicas avanzadas. Esta experiencia me dio una base sólida en los fundamentos de CSS, que ahora aplico a diseños más complejos y responsivos.",
-    "image": "first.webp",
-    "link": "https://github.com/luar22j/first-project",
-    "tecnologies": ["HTML", "CSS"]
+    "tecnologies": ["JavaScript", "jQuery", "HTML", "CSS"]
   }
 }

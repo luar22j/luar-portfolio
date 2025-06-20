@@ -15,10 +15,10 @@
   },
   "primark-project": {
     "name": "Proyecto Primark",
-    "description": "Este proyecto, un clon del sitio web de Primark, fue donde aprendí los fundamentos de React y cómo funciona este potente framework. Al construir este sitio, adquirí experiencia práctica con la estructura de componentes de React, la gestión de estado y sus características clave. Este proyecto sentó las bases de mis habilidades en desarrollo front-end y me ayudó a entender cómo crear aplicaciones dinámicas y responsivas.",
+    "description": "Este proyecto, un clon del sitio web de Primark, fue donde aprendí los fundamentos de React y cómo funciona este potente framework. Al construir este sitio, adquirí experiencia práctica con la estructura de componentes de React, la gestión de estado y sus características clave. Además, integré la librería Leaflet para implementar mapas interactivos que muestran la ubicación de las tiendas. Este proyecto sentó las bases de mis habilidades en desarrollo front-end y me ayudó a entender cómo crear aplicaciones dinámicas y responsivas.",
     "image": "primark.webp",
     "link": "https://github.com/luar22j/primark-project",
-    "tecnologies": ["React", "TypeScript", "JavaScript", "TailwindCSS"]
+    "tecnologies": ["React", "Leaflet", "TypeScript", "TailwindCSS"]
   },
   "password-generator": {
     "name": "Generador de Contraseñas",

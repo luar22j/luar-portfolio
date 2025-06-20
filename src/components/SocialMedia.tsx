@@ -52,7 +52,7 @@ export const SocialMedia = () => {
         <li style={{ "--delay": "300ms" } as React.CSSProperties}>
           <a
             className="block social-media-icon"
-            href="/documents/Luar-Jaen-Sole-CV.pdf"
+            href="/documents/luar-jaen-sole-cv.pdf"
             download
             aria-label="Descargar CV"
             title="Descargar CV"

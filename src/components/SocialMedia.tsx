@@ -53,7 +53,8 @@ export const SocialMedia = () => {
           <a
             className="block social-media-icon"
             href="/documents/luar-jaen-sole-cv.pdf"
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Descargar CV"
             title="Descargar CV"
           >

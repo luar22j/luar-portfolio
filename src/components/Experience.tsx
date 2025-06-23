@@ -10,7 +10,7 @@ interface InformationItem {
   link: string;
 }
 
-export const Experience = () => {
+const Experience = () => {
   const experienceRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

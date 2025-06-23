@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-export const About = () => {
+const About = () => {
   const aboutRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

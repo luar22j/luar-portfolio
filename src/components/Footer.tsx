@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import "../assets/css/global.css";
 
-export const Footer = () => {
+const Footer = () => {
   const footerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

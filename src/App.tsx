@@ -33,7 +33,7 @@ function App() {
           }
         />
         <Route
-          path="/luar-jaen-sole-cv.pdf"
+          path="/cv"
           element={
             <iframe
               src="/documents/luar-jaen-sole-cv.pdf"

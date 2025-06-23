@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/cv",
+      "destination": "/documents/luar-jaen-sole-cv.pdf"
+    },
+    {
+      "source": "/((?!.*\\.(?:pdf|png|jpg|jpeg|svg|css|js|woff|ttf|ico)).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

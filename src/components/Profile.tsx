@@ -1,6 +1,6 @@
 import "../assets/css/portal.css";
 
-export const Profile = () => {
+const Profile = () => {
   return (
     <div className="flex flex-col sm:gap-5 gap-10">
       <div className="flex sm:items-center items-start sm:flex-row flex-col flex-wrap justify-between sm:gap-[100px] gap-10">

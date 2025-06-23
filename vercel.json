@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/cv",
+      "destination": "/documents/luar-jaen-sole-cv.pdf"
+    }
+  ]
+}

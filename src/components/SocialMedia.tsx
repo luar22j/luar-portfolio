@@ -52,10 +52,10 @@ const SocialMedia = () => {
         <li style={{ "--delay": "300ms" } as React.CSSProperties}>
           <a
             className="block social-media-icon"
-            href="/documents/luar-jaen-sole-cv.pdf"
+            href="/documents/Luar-Jaen-Sole-CV.pdf"
             aria-label="Descargar CV"
+            target="_blank"
             title="Descargar CV"
-            download
           >
             <img
               src="/cv.svg"

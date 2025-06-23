@@ -2,10 +2,10 @@ import "../assets/css/global.css";
 import "../assets/css/stars.css";
 interface BackgroundProps {
   children: React.ReactNode;
-  handleClick?: () => void;
+  noPadding?: boolean;
 }
 
-const Background: React.FC<BackgroundProps> = ({ children }) => {
+const Background: React.FC<BackgroundProps> = ({ children, noPadding }) => {
   return (
     <>
       <div className="fixed inset-0 -z-10 h-full w-full [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]">
@@ -25,7 +25,11 @@ const Background: React.FC<BackgroundProps> = ({ children }) => {
         </div>
       </div>
 
-      <div className="min-h-screen flex items-center justify-center p-8 overflow-y-auto">
+      <div
+        className={`min-h-screen flex items-center justify-center ${
+          !noPadding && "p-8"
+        } overflow-y-auto`}
+      >
         {children}
       </div>
     </>

@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import NotFound from "./components/NotFound";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -32,16 +33,7 @@ function App() {
             </Background>
           }
         />
-        <Route
-          path="/cv"
-          element={
-            <iframe
-              src="/documents/luar-jaen-sole-cv.pdf"
-              title="CV PDF"
-              style={{ width: "100vw", height: "100vh", border: "none" }}
-            />
-          }
-        />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );

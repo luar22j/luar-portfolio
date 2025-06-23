@@ -2,11 +2,11 @@ const Resume = () => {
   return (
     <a
       className="block social-media-icon"
-      href="/cv"
+      href="/documents/luar-jaen-sole-cv.pdf"
       target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Ver CV en PDF"
-      title="Ver CV en PDF"
+      aria-label="Descargar PDF"
+      title="Descargar PDF"
+      download
     >
       <img
         src="/cv.svg"

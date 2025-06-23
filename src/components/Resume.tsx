@@ -3,7 +3,6 @@ const Resume = () => {
     <a
       className="block social-media-icon"
       href="/documents/luar-jaen-sole-cv.pdf"
-      target="_blank"
       aria-label="Descargar PDF"
       title="Descargar PDF"
       download

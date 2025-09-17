@@ -3,6 +3,7 @@ import SocialMedia from "./components/SocialMedia";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 import About from "./components/About";
 import Footer from "./components/Footer";
 
@@ -19,6 +20,7 @@ function App() {
             <About />
             <Experience />
           </div>
+          <Education />
           <Projects />
           <Footer />
         </div>

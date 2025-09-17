@@ -37,41 +37,5 @@
       "Vite"
     ],
     "link": "https://www.goil.app/"
-  },
-  "daw": {
-    "title": "Desarrollo de Aplicaciones Web (DAW)",
-    "description": "Cursé un ciclo de formación profesional de grado superior en Desarrollo de Aplicaciones Web (DAW) en el INS Camí de Mar, en Calafell. Este programa me proporcionó una base sólida en programación y me enseñó a enfrentar los desafíos de codificación de manera efectiva en el día a día. Durante el curso, adquirí habilidades valiosas y desarrollé una lógica de programación robusta, que apliqué en mis proyectos y seguí perfeccionando a medida que avanzaba en el campo.",
-    "years": "septiembre 2023 - junio 2025",
-    "technologies": [
-      "Laravel",
-      "Spring Boot",
-      "TypeScript",
-      "JavaScript",
-      "jQuery",
-      "Vue.js",
-      "Ionic",
-      "Java",
-      "PHP",
-      "Python",
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "TailwindCSS",
-      "SQL",
-      "PL/SQL",
-      "MySQL",
-      "Oracle",
-      "MongoDB",
-      "Node.js",
-      "Vite",
-      "Docker",
-      "Postman",
-      "Figma",
-      "WordPress",
-      "Git",
-      "GitHub",
-      "GitLab"
-    ],
-    "link": "https://www.inscamidemar.cat/"
   }
 }

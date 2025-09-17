@@ -39,7 +39,7 @@ const Experience = () => {
   return (
     <div ref={experienceRef} className="flex flex-col gap-8 experience-hidden">
       <h1 className="title-animation text-3xl font-bold drop-shadow-[0_2px_10px_#4723a5] text-gray-200">
-        Experiencia
+        Experiencia Laboral
       </h1>
       <div className="flex flex-col gap-8 w-full">
         {Object.entries(informationData).map(([key, item], index) => {

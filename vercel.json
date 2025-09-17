@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/cv",
-      "destination": "/documents/Luar-Jaen-Sole-CV.pdf"
+      "destination": "/documents/Luar_Jaen_Sole_CV.pdf"
     }
   ]
 }

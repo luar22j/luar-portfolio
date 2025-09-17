@@ -1,6 +1,23 @@
 {
+  "performance-labs": {
+    "title": "Full Stack Developer - Performance Labs SL",
+    "description": "Desarrollo full stack de aplicaciones web con Next.js, trabajando tanto en frontend como en backend. Implementación de autenticación y gestión de datos utilizando Supabase. Creación de componentes reutilizables y optimización del rendimiento de la aplicación. Colaboración en decisiones técnicas relacionadas con la arquitectura y el stack tecnológico.",
+    "years": "jul. 2025 - sept. 2025 (3 meses)",
+    "technologies": [
+      "Next.js",
+      "Vitest",
+      "Supabase",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.performancelabs.es/"
+  },
   "goil": {
-    "title": "Goil Security SL",
+    "title": "Frontend Developer - Goil Security SL",
     "description": "Tuve la oportunidad de realizar una beca como desarrollador web, centrado específicamente en el desarrollo front-end, en Goil. Fue una experiencia muy enriquecedora formar parte de un equipo tan talentoso y solidario. Durante mi tiempo allí, pude mejorar significativamente mis habilidades y aprender de profesionales altamente capacitados. Trabajar junto a ellos fue una oportunidad fantástica, y me sentí motivado cada día por contribuir, aprender y crecer. Aprendí muchísimo gracias al proceso, al apoyo de los seniors y a todos los programadores que me acompañaron en el camino.",
     "years": "agosto 2024 - junio 2025",
     "technologies": [

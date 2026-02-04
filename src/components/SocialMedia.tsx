@@ -7,7 +7,7 @@ const SocialMedia = () => {
     label: string,
     title: string,
     viewbox: string,
-    path: string
+    path: string,
   ) => (
     <a
       className="block social-media-icon"
@@ -44,7 +44,7 @@ const SocialMedia = () => {
                 value.label,
                 value.title,
                 value.viewbox,
-                value.path
+                value.path,
               )}
             </li>
           );
@@ -52,7 +52,7 @@ const SocialMedia = () => {
         <li style={{ "--delay": "300ms" } as React.CSSProperties}>
           <a
             className="block social-media-icon"
-            href="/documents/Luar_Jaen_Sole_CV.pdf"
+            href="/documents/Luar-Jaen-Sole-CV.pdf"
             aria-label="Descargar CV"
             target="_blank"
             title="Descargar CV"

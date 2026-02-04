@@ -52,7 +52,7 @@ const About = () => {
       ref={aboutRef}
       className="flex flex-col gap-8 text-justify about-hidden"
     >
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-[200px] lg:gap-12">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-[200px] xl:gap-8">
         <div className="flex flex-col gap-8">
           <h1 className="title-animation drop-shadow-[0_2px_10px_#4723a5] text-3xl font-bold text-gray-200">
             Sobre Mí

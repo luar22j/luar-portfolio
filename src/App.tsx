@@ -17,8 +17,10 @@ function App() {
         </div>
         <div className="flex flex-col items-center justify-center md:gap-[200px] gap-[100px]">
           <About />
-          <Experience />
-          <Education />
+          <div className="flex flex-col xl:flex-row xl:gap-8 gap-[200px] w-full">
+            <Experience />
+            <Education />
+          </div>
           <Projects />
           <Footer />
         </div>

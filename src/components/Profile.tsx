@@ -37,8 +37,8 @@ const Profile = () => {
           className="profile-animation text-gray-400 md:text-lg text transition-all"
           style={{ "--delay": "300ms" } as React.CSSProperties}
         >
-          Desarrollo aplicaciones web completas, robustas y escalables, tanto en
-          frontend como en backend.
+          Desarrollo aplicaciones web completas, robustas y escalables, <br />
+          tanto en frontend como en backend.
         </p>
       </div>
     </div>

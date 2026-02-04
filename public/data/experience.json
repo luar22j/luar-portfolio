@@ -1,4 +1,22 @@
 {
+  "jaestic": {
+    "title": "Full Stack Developer - Jaestic SL",
+    "description": "Desarrollo full stack de aplicaciones web con Next.js, trabajando tanto en frontend como en backend. Implementación de autenticación y gestión de datos utilizando Supabase. Creación de componentes reutilizables y optimización del rendimiento de la aplicación. Colaboración en decisiones técnicas relacionadas con la arquitectura y el stack tecnológico.",
+    "years": "octubre 2025 - actualidad",
+    "technologies": [
+      "Laravel",
+      "Vue.js",
+      "Wordpress",
+      "Plesk",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Git",
+      "GitHub"
+    ],
+    "link": "https://www.contentgenio.ai/"
+  },
   "performance-labs": {
     "title": "Full Stack Developer - Performance Labs SL",
     "description": "Desarrollo full stack de aplicaciones web con Next.js, trabajando tanto en frontend como en backend. Implementación de autenticación y gestión de datos utilizando Supabase. Creación de componentes reutilizables y optimización del rendimiento de la aplicación. Colaboración en decisiones técnicas relacionadas con la arquitectura y el stack tecnológico.",

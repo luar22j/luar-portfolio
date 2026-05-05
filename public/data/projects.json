@@ -5,14 +5,12 @@
     "image": "waffled.svg",
     "link": "https://waffled.es/",
     "tecnologies": [
-      "React 19",
+      "React",
       "TypeScript",
       "TailwindCSS",
       "Spring Boot",
       "Java",
       "PostgreSQL",
-      "Stripe",
-      "PayPal",
       "Docker"
     ]
   },

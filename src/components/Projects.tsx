@@ -48,18 +48,28 @@ export const Project = () => {
         {Object.entries(projectsData as unknown as Record<string, Project>).map(
           ([key, { name, description, image, link, tecnologies }], index) => {
             const delay = `${index * 200}ms`;
+            const isFeatured = index === 0;
 
             return (
               <a
                 href={link}
                 target="_blank"
+                rel="noreferrer"
                 key={key}
-                className="bg-section flex justify-start gap-5 transition-all p-7 rounded-lg group hover:shadow bg-purple-900 bg-opacity-25 hover:bg-opacity-45 w-full"
+                className={`bg-section flex justify-start gap-5 transition-all rounded-lg group hover:shadow bg-purple-900 bg-opacity-25 hover:bg-opacity-45 w-full ${
+                  isFeatured ? "md:col-span-2 p-7 md:p-8" : "p-7"
+                }`}
               >
-                <div className="flex flex-col gap-5 w-full">
+                <div
+                  className={`flex gap-5 w-full ${
+                    isFeatured ? "flex-col lg:flex-row lg:items-center" : "flex-col"
+                  }`}
+                >
                   <div
                     style={{ "--delay": delay } as React.CSSProperties}
-                    className="bg-section aspect-video relative overflow-hidden rounded-lg transition-all shadow-[1px_1px_3px_#4723a5] w-full"
+                    className={`bg-section aspect-video relative overflow-hidden rounded-lg transition-all shadow-[1px_1px_3px_#4723a5] w-full ${
+                      isFeatured ? "lg:w-1/2" : ""
+                    }`}
                   >
                     <img
                       className="w-full h-full object-cover"
@@ -70,8 +80,13 @@ export const Project = () => {
                   <div className="flex flex-col flex-wrap gap-5">
                     <div
                       style={{ "--delay": delay } as React.CSSProperties}
-                      className="text-animation flex items-center gap-3"
+                      className="text-animation flex items-center gap-3 flex-wrap"
                     >
+                      {isFeatured && (
+                        <span className="text-xs uppercase tracking-wide text-orange-200 bg-orange-500/20 border border-orange-300/30 rounded-full px-3 py-1">
+                          Proyecto destacado
+                        </span>
+                      )}
                       <h2 className="text-xl font-bold text-gray-200 break-words">
                         {name}
                       </h2>

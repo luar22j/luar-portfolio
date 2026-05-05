@@ -1,4 +1,21 @@
 {
+  "waffled": {
+    "name": "Waffled",
+    "description": "Waffled es una plataforma SaaS de gestion para restaurantes que estoy desarrollando junto con un amigo. El proyecto combina una carta digital para clientes, pedidos por QR de mesa, reservas, fidelizacion, pagos online y un panel de administracion para que cada restaurante pueda gestionar productos, menus, mesas, promociones y pedidos en tiempo real.",
+    "image": "waffled.svg",
+    "link": "https://waffled.es/",
+    "tecnologies": [
+      "React 19",
+      "TypeScript",
+      "TailwindCSS",
+      "Spring Boot",
+      "Java",
+      "PostgreSQL",
+      "Stripe",
+      "PayPal",
+      "Docker"
+    ]
+  },
   "e-commerce": {
     "name": "Burgers & Roll",
     "description": "Burgers & Roll es un e-commerce que consiste en un marketplace desarrollado íntegramente por mí, incluyendo el diseño, el frontend, el backend y la base de datos. Es un proyecto completo que he presentado en clase y ha sido valorado con un 9.",

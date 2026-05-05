@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Waffled restaurant management software</title>
+  <desc id="desc">A branded social preview for Waffled.</desc>
+  <rect width="1200" height="630" fill="#fcf8f3"/>
+  <circle cx="1030" cy="120" r="210" fill="#ffd5ad"/>
+  <circle cx="120" cy="560" r="190" fill="#f2d9bf"/>
+  <rect x="84" y="78" width="1032" height="474" rx="42" fill="#1c140d"/>
+  <rect x="134" y="128" width="116" height="116" rx="28" fill="#f27f0d"/>
+  <path d="M162 162h60M162 186h60M162 210h60M162 162v60M186 162v60M222 162v60" stroke="#fff2e6" stroke-width="9" stroke-linecap="round"/>
+  <text x="292" y="190" fill="#fff2e6" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="800">Waffled</text>
+  <text x="134" y="342" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="900">Gestiona tu restaurante</text>
+  <text x="134" y="424" fill="#ffca92" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="900">desde una plataforma</text>
+  <text x="138" y="490" fill="#ead8c7" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="600">Carta digital, QR de mesa, pedidos, reservas y fidelizacion.</text>
+</svg>

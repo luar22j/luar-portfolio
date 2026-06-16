@@ -1,6 +1,9 @@
 import "../assets/css/portal.css";
+import { useTranslation } from "../i18n/useTranslation";
 
 const Profile = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-col sm:gap-5 gap-10">
       <div className="flex sm:items-center items-start sm:flex-row flex-col flex-wrap justify-between sm:gap-[100px] gap-10">
@@ -31,14 +34,13 @@ const Profile = () => {
           className="profile-animation text-gray-300 md:text-3xl text-2xl font-bold transition-all"
           style={{ "--delay": "200ms" } as React.CSSProperties}
         >
-          Desarrollador Full Stack Junior
+          {t.profile.role}
         </h2>
         <p
           className="profile-animation text-gray-400 md:text-lg text transition-all"
           style={{ "--delay": "300ms" } as React.CSSProperties}
         >
-          Desarrollo aplicaciones web completas, robustas y escalables, tanto en
-          frontend como en backend.
+          {t.profile.tagline}
         </p>
       </div>
     </div>

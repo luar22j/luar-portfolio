@@ -1,8 +1,17 @@
 {
   "daw": {
-    "title": "Desarrollo de Aplicaciones Web (DAW)",
-    "description": "Cursé un ciclo de formación profesional de grado superior en Desarrollo de Aplicaciones Web (DAW) en el INS Camí de Mar, en Calafell. Este programa me proporcionó una base sólida en programación y me enseñó a enfrentar los desafíos de codificación de manera efectiva en el día a día. Durante el curso, adquirí habilidades valiosas y desarrollé una lógica de programación robusta, que apliqué en mis proyectos y seguí perfeccionando a medida que avanzaba en el campo.",
-    "years": "septiembre 2023 - junio 2025",
+    "title": {
+      "es": "Desarrollo de Aplicaciones Web (DAW)",
+      "en": "Web Application Development (DAW)"
+    },
+    "description": {
+      "es": "Cursé un ciclo de formación profesional de grado superior en Desarrollo de Aplicaciones Web (DAW) en el INS Camí de Mar, en Calafell. Este programa me proporcionó una base sólida en programación y me enseñó a enfrentar los desafíos de codificación de manera efectiva en el día a día. Durante el curso, adquirí habilidades valiosas y desarrollé una lógica de programación robusta, que apliqué en mis proyectos y seguí perfeccionando a medida que avanzaba en el campo.",
+      "en": "I completed a Higher Degree vocational training programme in Web Application Development (DAW) at INS Camí de Mar, in Calafell. This programme gave me a solid foundation in programming and taught me to tackle coding challenges effectively on a day-to-day basis. Throughout the course, I acquired valuable skills and developed robust programming logic, which I applied in my projects and continued to refine as I advanced in the field."
+    },
+    "years": {
+      "es": "septiembre 2023 - junio 2025",
+      "en": "September 2023 - June 2025"
+    },
     "technologies": [
       "Laravel",
       "Spring Boot",

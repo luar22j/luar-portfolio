@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { useTranslation } from "../i18n/useTranslation";
 import {
   SiReact,
   SiTypescript,
@@ -11,6 +12,7 @@ import {
 } from "react-icons/si";
 
 const About = () => {
+  const { t } = useTranslation();
   const aboutRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -55,41 +57,18 @@ const About = () => {
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-[200px] xl:gap-8">
         <div className="flex flex-col gap-8">
           <h1 className="title-animation drop-shadow-[0_2px_10px_#4723a5] text-3xl font-bold text-gray-200">
-            Sobre Mí
+            {t.about.title}
           </h1>
           <div className="text-animation text-gray-200 flex flex-col gap-3 text-base">
-            <p>
-              ¡Hola! Soy Luar, un chico de 19 años que acaba de finalizar el
-              ciclo de Técnico Superior en Desarrollo de Aplicaciones Web.
-              Actualmente me dedico al desarrollo full stack, aunque cuento con
-              más de un año de experiencia especializada en frontend,
-              especialmente con tecnologías como React. Estoy dando mis primeros
-              pasos como profesional, con muchas ganas de seguir aprendiendo,
-              creciendo y mejorando cada día.
-            </p>
-
-            <p>
-              Mi objetivo es claro: convertirme en un desarrollador senior
-              sólido y con amplios conocimientos, capaz de aportar calidad,
-              ideas y soluciones en cada proyecto en el que trabaje. Me
-              considero una persona ágil programando, curiosa y con facilidad
-              para aprender y adaptarse. Me gusta investigar, entender cómo
-              funcionan las cosas por dentro y siempre busco formas de hacer
-              mejor mi trabajo.
-            </p>
-
-            <p>
-              Además, dispongo de carné de conducir y vehículo propio, lo que me
-              da total disponibilidad para desplazarme si es necesario. Hablo
-              español y catalán como lenguas nativas, y tengo un nivel
-              intermedio de inglés, que sigo reforzando día a día.
-            </p>
+            {t.about.paragraphs.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
           </div>
         </div>
 
         <div className="flex flex-col gap-8">
           <h1 className="title-animation drop-shadow-[0_2px_10px_#4723a5] text-3xl font-bold text-gray-200">
-            Tecnologías
+            {t.about.skillsTitle}
           </h1>
           <div className="text-animation grid grid-cols-2 gap-4">
             {skills.map((skill) => {

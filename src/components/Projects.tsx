@@ -1,16 +1,19 @@
 import { useEffect, useRef } from "react";
 import projectsData from "../../public/data/projects.json";
+import { useTranslation } from "../i18n/useTranslation";
+import type { Localized } from "../i18n/config";
 import "../assets/css/section.css";
 
 interface Project {
-  name: string;
-  description: string;
+  name: Localized<string>;
+  description: Localized<string>;
   image: string;
   link?: string;
   tecnologies: string[];
 }
 
-export const Project = () => {
+export const Projects = () => {
+  const { t, pick } = useTranslation();
   const projectsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -42,7 +45,7 @@ export const Project = () => {
   return (
     <div ref={projectsRef} className="flex flex-col gap-8 projects-hidden">
       <h1 className="title-animation text-3xl font-bold drop-shadow-[0_2px_10px_#4723a5] text-gray-200">
-        Proyectos
+        {t.projects.title}
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
         {Object.entries(projectsData as unknown as Record<string, Project>).map(
@@ -74,7 +77,7 @@ export const Project = () => {
                     <img
                       className="w-full h-full object-cover"
                       src={`./img/projects/${image}`}
-                      alt={name}
+                      alt={pick(name)}
                     />
                   </div>
                   <div className="flex flex-col flex-wrap gap-5">
@@ -84,11 +87,11 @@ export const Project = () => {
                     >
                       {isFeatured && (
                         <span className="text-xs uppercase tracking-wide text-orange-200 bg-orange-500/20 border border-orange-300/30 rounded-full px-3 py-1">
-                          Proyecto destacado
+                          {t.projects.featured}
                         </span>
                       )}
                       <h2 className="text-xl font-bold text-gray-200 break-words">
-                        {name}
+                        {pick(name)}
                       </h2>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -109,20 +112,20 @@ export const Project = () => {
                       style={{ "--delay": delay } as React.CSSProperties}
                       className="text-animation text-gray-300 text-justify text-sm"
                     >
-                      {description}
+                      {pick(description)}
                     </p>
                     <div className="flex flex-wrap gap-3">
-                      {tecnologies.map((name, index) => (
+                      {tecnologies.map((tech, techIndex) => (
                         <button
-                          key={index}
+                          key={techIndex}
                           className="components-animation py-1 px-4 rounded-full text-gray-200 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 shadow-lg shadow-purple-500/50"
                           style={
                             {
-                              "--delay": `${parseInt(delay) + index * 100}ms`,
+                              "--delay": `${parseInt(delay) + techIndex * 100}ms`,
                             } as React.CSSProperties
                           }
                         >
-                          {name}
+                          {tech}
                         </button>
                       ))}
                     </div>
@@ -137,4 +140,4 @@ export const Project = () => {
   );
 };
 
-export default Project;
+export default Projects;

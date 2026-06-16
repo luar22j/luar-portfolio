@@ -1,16 +1,19 @@
 import { useEffect, useRef } from "react";
 import informationData from "../../public/data/experience.json";
+import { useTranslation } from "../i18n/useTranslation";
+import type { Localized } from "../i18n/config";
 import "../assets/css/section.css";
 
 interface InformationItem {
-  title: string;
-  description: string;
-  years: string;
+  title: Localized<string>;
+  description: Localized<string>;
+  years: Localized<string>;
   technologies?: string[];
   link: string;
 }
 
 const Experience = () => {
+  const { t, pick } = useTranslation();
   const experienceRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -39,7 +42,7 @@ const Experience = () => {
   return (
     <div ref={experienceRef} className="flex flex-col gap-8 experience-hidden">
       <h1 className="title-animation text-3xl font-bold drop-shadow-[0_2px_10px_#4723a5] text-gray-200">
-        Experiencia Laboral
+        {t.experience.title}
       </h1>
       <div className="flex flex-col gap-8 w-full">
         {Object.entries(informationData).map(([key, item], index) => {
@@ -61,7 +64,7 @@ const Experience = () => {
                   className="text-animation text-center text-sm whitespace-nowrap"
                   style={{ "--delay": delay } as React.CSSProperties}
                 >
-                  {years}
+                  {pick(years)}
                 </p>
               </div>
               <div className="flex justify-center flex-col gap-5">
@@ -70,7 +73,7 @@ const Experience = () => {
                     className="text-[#E0E0E0] font-bold transition-all"
                     style={{ "--delay": delay } as React.CSSProperties}
                   >
-                    {title}
+                    {pick(title)}
                   </h2>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +96,7 @@ const Experience = () => {
                     className="text-animation text-justify text-gray-300 text-sm"
                     style={{ "--delay": delay } as React.CSSProperties}
                   >
-                    {description}
+                    {pick(description)}
                   </p>
                   {technologies && (
                     <div
@@ -103,10 +106,10 @@ const Experience = () => {
                       {technologies.map((name, techIndex) => (
                         <button
                           key={techIndex}
-                          className="technology-button py-1 px-4 rounded-full 
-                        text-gray-200 bg-gradient-to-r 
-                        from-purple-500 via-purple-600 
-                        to-purple-700 shadow-lg 
+                          className="technology-button py-1 px-4 rounded-full
+                        text-gray-200 bg-gradient-to-r
+                        from-purple-500 via-purple-600
+                        to-purple-700 shadow-lg
                         shadow-purple-500/50"
                           style={
                             {

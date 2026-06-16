@@ -1,6 +1,8 @@
 import socialMediaData from "../../public/data/social-media.json";
+import { useTranslation } from "../i18n/useTranslation";
 
 const SocialMedia = () => {
+  const { t } = useTranslation();
   const svg = (
     key: string,
     href: string,
@@ -52,10 +54,10 @@ const SocialMedia = () => {
         <li style={{ "--delay": "300ms" } as React.CSSProperties}>
           <a
             className="block social-media-icon"
-            href="/documents/Luar-Jaen-Sole-CV.pdf"
-            aria-label="Descargar CV"
+            href={t.cv.href}
+            aria-label={t.cv.label}
             target="_blank"
-            title="Descargar CV"
+            title={t.cv.label}
           >
             <img
               src="/cv.svg"

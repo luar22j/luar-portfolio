@@ -1,7 +1,9 @@
 import { useEffect, useRef } from "react";
 import "../assets/css/global.css";
+import { useTranslation } from "../i18n/useTranslation";
 
 const Footer = () => {
+  const { t } = useTranslation();
   const footerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -30,7 +32,7 @@ const Footer = () => {
   return (
     <div ref={footerRef} className="footer-hidden">
       <p className="text-animation text-white text-center drop-shadow-lg">
-        Designed by Luar. Built with React and Tailwind CSS.
+        {t.footer.text}
       </p>
     </div>
   );

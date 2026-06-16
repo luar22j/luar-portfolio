@@ -1,8 +1,17 @@
 {
   "jaestic": {
-    "title": "Full Stack Developer - Jaestic SL",
-    "description": "Desarrollo full stack de aplicaciones web con Next.js, trabajando tanto en frontend como en backend. Implementación de autenticación y gestión de datos utilizando Supabase. Creación de componentes reutilizables y optimización del rendimiento de la aplicación. Colaboración en decisiones técnicas relacionadas con la arquitectura y el stack tecnológico.",
-    "years": "octubre 2025 - actualidad",
+    "title": {
+      "es": "Full Stack Developer - Jaestic SL",
+      "en": "Full Stack Developer - Jaestic SL"
+    },
+    "description": {
+      "es": "Desarrollo full stack de aplicaciones web con Next.js, trabajando tanto en frontend como en backend. Implementación de autenticación y gestión de datos utilizando Supabase. Creación de componentes reutilizables y optimización del rendimiento de la aplicación. Colaboración en decisiones técnicas relacionadas con la arquitectura y el stack tecnológico.",
+      "en": "Full stack development of web applications with Next.js, working on both frontend and backend. Authentication implementation and data management using Supabase. Creation of reusable components and application performance optimisation. Collaboration in technical decisions related to architecture and the technology stack."
+    },
+    "years": {
+      "es": "octubre 2025 - actualidad",
+      "en": "October 2025 - present"
+    },
     "technologies": [
       "Laravel",
       "Vue.js",
@@ -18,9 +27,18 @@
     "link": "https://jaestic.com/"
   },
   "performance-labs": {
-    "title": "Full Stack Developer - Performance Labs SL",
-    "description": "Desarrollo full stack de aplicaciones web con Next.js, trabajando tanto en frontend como en backend. Implementación de autenticación y gestión de datos utilizando Supabase. Creación de componentes reutilizables y optimización del rendimiento de la aplicación. Colaboración en decisiones técnicas relacionadas con la arquitectura y el stack tecnológico.",
-    "years": "julio 2025 - septiembre 2025",
+    "title": {
+      "es": "Full Stack Developer - Performance Labs SL",
+      "en": "Full Stack Developer - Performance Labs SL"
+    },
+    "description": {
+      "es": "Desarrollo full stack de aplicaciones web con Next.js, trabajando tanto en frontend como en backend. Implementación de autenticación y gestión de datos utilizando Supabase. Creación de componentes reutilizables y optimización del rendimiento de la aplicación. Colaboración en decisiones técnicas relacionadas con la arquitectura y el stack tecnológico.",
+      "en": "Full stack development of web applications with Next.js, working on both frontend and backend. Authentication implementation and data management using Supabase. Creation of reusable components and application performance optimisation. Collaboration in technical decisions related to architecture and the technology stack."
+    },
+    "years": {
+      "es": "julio 2025 - septiembre 2025",
+      "en": "July 2025 - September 2025"
+    },
     "technologies": [
       "Next.js",
       "Vitest",
@@ -35,9 +53,18 @@
     "link": "https://www.contentgenio.ai/"
   },
   "goil": {
-    "title": "Frontend Developer - Goil Security SL",
-    "description": "Tuve la oportunidad de realizar una beca como desarrollador web, centrado específicamente en el desarrollo front-end, en Goil. Fue una experiencia muy enriquecedora formar parte de un equipo tan talentoso y solidario. Durante mi tiempo allí, pude mejorar significativamente mis habilidades y aprender de profesionales altamente capacitados. Trabajar junto a ellos fue una oportunidad fantástica, y me sentí motivado cada día por contribuir, aprender y crecer. Aprendí muchísimo gracias al proceso, al apoyo de los seniors y a todos los programadores que me acompañaron en el camino.",
-    "years": "agosto 2024 - junio 2025",
+    "title": {
+      "es": "Frontend Developer - Goil Security SL",
+      "en": "Frontend Developer - Goil Security SL"
+    },
+    "description": {
+      "es": "Tuve la oportunidad de realizar una beca como desarrollador web, centrado específicamente en el desarrollo front-end, en Goil. Fue una experiencia muy enriquecedora formar parte de un equipo tan talentoso y solidario. Durante mi tiempo allí, pude mejorar significativamente mis habilidades y aprender de profesionales altamente capacitados. Trabajar junto a ellos fue una oportunidad fantástica, y me sentí motivado cada día por contribuir, aprender y crecer. Aprendí muchísimo gracias al proceso, al apoyo de los seniors y a todos los programadores que me acompañaron en el camino.",
+      "en": "I had the opportunity to complete an internship as a web developer with a specific focus on frontend development at Goil. It was a very enriching experience to be part of such a talented and supportive team. During my time there, I was able to significantly improve my skills and learn from highly skilled professionals. Working alongside them was a fantastic opportunity, and I felt motivated every day to contribute, learn, and grow. I learned a great deal thanks to the process, the support of senior developers, and all the programmers who were with me along the way."
+    },
+    "years": {
+      "es": "agosto 2024 - junio 2025",
+      "en": "August 2024 - June 2025"
+    },
     "technologies": [
       "React",
       "TypeScript",

@@ -1,7 +1,13 @@
 {
   "waffled": {
-    "name": "Waffled",
-    "description": "Waffled es una plataforma SaaS de gestion para restaurantes que estoy desarrollando junto con un amigo. El proyecto combina una carta digital para clientes, pedidos por QR de mesa, reservas, fidelizacion, pagos online y un panel de administracion para que cada restaurante pueda gestionar productos, menus, mesas, promociones y pedidos en tiempo real.",
+    "name": {
+      "es": "Waffled",
+      "en": "Waffled"
+    },
+    "description": {
+      "es": "Waffled es una plataforma SaaS de gestion para restaurantes que estoy desarrollando junto con un amigo. El proyecto combina una carta digital para clientes, pedidos por QR de mesa, reservas, fidelizacion, pagos online y un panel de administracion para que cada restaurante pueda gestionar productos, menus, mesas, promociones y pedidos en tiempo real.",
+      "en": "Waffled is a SaaS management platform for restaurants that I'm developing together with a friend. The project combines a digital menu for customers, QR table ordering, reservations, loyalty programmes, online payments, and an admin dashboard so each restaurant can manage products, menus, tables, promotions, and orders in real time."
+    },
     "image": "waffled.svg",
     "link": "https://waffled.es/",
     "tecnologies": [
@@ -15,8 +21,14 @@
     ]
   },
   "e-commerce": {
-    "name": "Burgers & Roll",
-    "description": "Burgers & Roll es un e-commerce que consiste en un marketplace desarrollado íntegramente por mí, incluyendo el diseño, el frontend, el backend y la base de datos. Es un proyecto completo que he presentado en clase y ha sido valorado con un 9.",
+    "name": {
+      "es": "Burgers & Roll",
+      "en": "Burgers & Roll"
+    },
+    "description": {
+      "es": "Burgers & Roll es un e-commerce que consiste en un marketplace desarrollado íntegramente por mí, incluyendo el diseño, el frontend, el backend y la base de datos. Es un proyecto completo que he presentado en clase y ha sido valorado con un 9.",
+      "en": "Burgers & Roll is an e-commerce marketplace developed entirely by me, including the design, frontend, backend, and database. It is a complete project that I presented in class and received a grade of 9 out of 10."
+    },
     "image": "burgers.webp",
     "link": "https://github.com/luar22j/e-commerce",
     "tecnologies": [
@@ -29,29 +41,53 @@
     ]
   },
   "primark-project": {
-    "name": "Proyecto Primark",
-    "description": "Este proyecto, un clon del sitio web de Primark, fue donde aprendí los fundamentos de React y cómo funciona este potente framework. Al construir este sitio, adquirí experiencia práctica con la estructura de componentes de React, la gestión de estado y sus características clave. Además, integré la librería Leaflet para implementar mapas interactivos que muestran la ubicación de las tiendas. Este proyecto sentó las bases de mis habilidades en desarrollo front-end y me ayudó a entender cómo crear aplicaciones dinámicas y responsivas.",
+    "name": {
+      "es": "Proyecto Primark",
+      "en": "Primark Project"
+    },
+    "description": {
+      "es": "Este proyecto, un clon del sitio web de Primark, fue donde aprendí los fundamentos de React y cómo funciona este potente framework. Al construir este sitio, adquirí experiencia práctica con la estructura de componentes de React, la gestión de estado y sus características clave. Además, integré la librería Leaflet para implementar mapas interactivos que muestran la ubicación de las tiendas. Este proyecto sentó las bases de mis habilidades en desarrollo front-end y me ayudó a entender cómo crear aplicaciones dinámicas y responsivas.",
+      "en": "This project, a clone of the Primark website, is where I learned the fundamentals of React and how this powerful framework works. Building the site gave me hands-on experience with React's component structure, state management, and its key features. I also integrated the Leaflet library to implement interactive maps showing store locations. This project laid the foundations of my frontend development skills and helped me understand how to build dynamic and responsive applications."
+    },
     "image": "primark.webp",
     "link": "https://github.com/luar22j/primark-project",
     "tecnologies": ["React", "Leaflet", "TypeScript", "TailwindCSS"]
   },
   "password-generator": {
-    "name": "Generador de Contraseñas",
-    "description": "Este proyecto es un Generador de Contraseñas construido con React y estilizado con Tailwind CSS. A través de este proyecto, reforcé mis habilidades en el diseño basado en componentes con React y aprendí a estilizar aplicaciones de manera eficiente con Tailwind CSS. Fue una experiencia valiosa crear una herramienta interactiva y funcional, y disfruté construyendo una interfaz limpia y fácil de usar que proporciona contraseñas seguras y aleatorias.",
+    "name": {
+      "es": "Generador de Contraseñas",
+      "en": "Password Generator"
+    },
+    "description": {
+      "es": "Este proyecto es un Generador de Contraseñas construido con React y estilizado con Tailwind CSS. A través de este proyecto, reforcé mis habilidades en el diseño basado en componentes con React y aprendí a estilizar aplicaciones de manera eficiente con Tailwind CSS. Fue una experiencia valiosa crear una herramienta interactiva y funcional, y disfruté construyendo una interfaz limpia y fácil de usar que proporciona contraseñas seguras y aleatorias.",
+      "en": "This project is a Password Generator built with React and styled with Tailwind CSS. Through it, I strengthened my component-driven design skills with React and learned to style applications efficiently with Tailwind CSS. It was a valuable experience to create an interactive and functional tool, and I enjoyed building a clean, user-friendly interface that generates secure random passwords."
+    },
     "image": "password.webp",
     "link": "https://github.com/luar22j/password-generator",
     "tecnologies": ["React", "JavaScript", "TailwindCSS"]
   },
   "photo_gallery": {
-    "name": "Galería de Fotos",
-    "description": "Este proyecto es una Galería de Fotos que utiliza Vue.js y Ionic para crear una aplicación móvil. A través de este pequeño proyecto, aprendí a construir pequeñas aplicaciones móviles con Vue.js y a utilizar Ionic para crear interfaces de usuario.",
+    "name": {
+      "es": "Galería de Fotos",
+      "en": "Photo Gallery"
+    },
+    "description": {
+      "es": "Este proyecto es una Galería de Fotos que utiliza Vue.js y Ionic para crear una aplicación móvil. A través de este pequeño proyecto, aprendí a construir pequeñas aplicaciones móviles con Vue.js y a utilizar Ionic para crear interfaces de usuario.",
+      "en": "This project is a Photo Gallery that uses Vue.js and Ionic to create a mobile application. Through this small project, I learned to build mobile apps with Vue.js and to use Ionic for building user interfaces."
+    },
     "image": "photo_gallery.webp",
     "link": "https://github.com/luar22j/photo-gallery",
     "tecnologies": ["Vue.js", "Ionic", "TypeScript"]
   },
   "js-project": {
-    "name": "Proyecto JS",
-    "description": "En este proyecto, construido solo con HTML, CSS y JavaScript, aprendí los fundamentos esenciales de JavaScript junto con jQuery. Este proyecto me ayudó a comprender conceptos clave como la manipulación del DOM, el manejo de eventos y la interactividad básica, sentando una base sólida en el desarrollo front-end. Fue una gran introducción a la programación de elementos dinámicos y a mejorar la experiencia del usuario en la web.",
+    "name": {
+      "es": "Proyecto JS",
+      "en": "JS Project"
+    },
+    "description": {
+      "es": "En este proyecto, construido solo con HTML, CSS y JavaScript, aprendí los fundamentos esenciales de JavaScript junto con jQuery. Este proyecto me ayudó a comprender conceptos clave como la manipulación del DOM, el manejo de eventos y la interactividad básica, sentando una base sólida en el desarrollo front-end. Fue una gran introducción a la programación de elementos dinámicos y a mejorar la experiencia del usuario en la web.",
+      "en": "In this project, built with nothing but HTML, CSS, and JavaScript, I learned the core fundamentals of JavaScript alongside jQuery. It helped me grasp key concepts such as DOM manipulation, event handling, and basic interactivity, laying a solid foundation in frontend development. It was a great introduction to programming dynamic elements and improving the user experience on the web."
+    },
     "image": "js.webp",
     "link": "https://github.com/luar22j/js-project",
     "tecnologies": ["JavaScript", "jQuery", "HTML", "CSS"]

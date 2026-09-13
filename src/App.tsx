@@ -1,7 +1,7 @@
 import Background from "./components/Background";
 import SocialMedia from "./components/SocialMedia";
 import Profile from "./components/Profile";
-import Projects from "./components/Projects";
+import { Projects } from "./components/Projects";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import About from "./components/About";

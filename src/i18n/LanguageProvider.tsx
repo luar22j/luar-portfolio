@@ -18,7 +18,7 @@ interface LanguageContextValue {
   setLanguage: (lang: Language) => void;
 }
 
-export const LanguageContext = createContext<LanguageContextValue | null>(null);
+const LanguageContext = createContext<LanguageContextValue | null>(null);
 
 function getInitialLanguage(): Language {
   const stored = localStorage.getItem(STORAGE_KEY);

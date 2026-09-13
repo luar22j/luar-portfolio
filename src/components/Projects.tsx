@@ -28,7 +28,7 @@ export const Projects = () => {
       {
         threshold: 0.1,
         rootMargin: "50px",
-      }
+      },
     );
 
     if (projectsRef.current) {
@@ -65,7 +65,9 @@ export const Projects = () => {
               >
                 <div
                   className={`flex gap-5 w-full ${
-                    isFeatured ? "flex-col lg:flex-row lg:items-center" : "flex-col"
+                    isFeatured
+                      ? "flex-col lg:flex-row lg:items-center"
+                      : "flex-col"
                   }`}
                 >
                   <div
@@ -133,11 +135,9 @@ export const Projects = () => {
                 </div>
               </a>
             );
-          }
+          },
         )}
       </div>
     </div>
   );
 };
-
-export default Projects;

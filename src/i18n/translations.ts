@@ -67,7 +67,7 @@ export const ui: Record<Language, UIStrings> = {
     },
     cv: {
       label: "Download CV",
-      href: "/documents/Luar_Jaen_Sole_CV.pdf",
+      href: "/documents/CV_Luar_Jaen_Full_Stack_React_Spring_Boot_EN.pdf",
     },
     switcher: {
       label: "Switch to Spanish",
@@ -106,7 +106,7 @@ export const ui: Record<Language, UIStrings> = {
     },
     cv: {
       label: "Descargar CV",
-      href: "/documents/Luar_Jaen_Sole_CV_ES.pdf",
+      href: "/documents/CV_Luar_Jaen_Full_Stack_React_Spring_Boot.pdf",
     },
     switcher: {
       label: "Cambiar a inglés",

@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/cv",
-      "destination": "/documents/Luar_Jaen_Sole_CV.pdf"
+      "destination": "/documents/CV_Luar_Jaen_Full_Stack_React_Spring_Boot_EN.pdf"
     }
   ]
 }

@@ -33,7 +33,7 @@ const About = () => {
             {skills.map(({ name, icon: Icon, color }) => (
               <li
                 key={name}
-                className="bg-gray-800/50 backdrop-blur-sm border border-purple-500/30 rounded-lg p-4 flex items-center gap-3 hover:border-purple-500/60 hover:bg-gray-800/70 transition-all duration-300"
+                className="bg-gray-800/50 backdrop-blur-xs border border-purple-500/30 rounded-lg p-4 flex items-center gap-3 hover:border-purple-500/60 hover:bg-gray-800/70 transition-all duration-300"
               >
                 <Icon className="text-3xl" style={{ color }} aria-hidden="true" />
                 <span className="text-gray-200 font-medium">{name}</span>

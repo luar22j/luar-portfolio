@@ -8,7 +8,7 @@ interface SectionTitleProps {
 const SectionTitle = ({ id, children }: SectionTitleProps) => (
   <h2
     id={id}
-    className="title-animation text-3xl font-bold text-gray-200 drop-shadow-[0_2px_10px_theme(colors.brand)]"
+    className="title-animation text-3xl font-bold text-gray-200 drop-shadow-[0_2px_10px_var(--color-brand)]"
   >
     {children}
   </h2>

@@ -6,7 +6,7 @@ const LanguageSwitcher = () => {
 
   return (
     <div
-      className="fixed top-4 right-4 z-50 flex items-center gap-1 bg-gray-800/50 backdrop-blur-sm border border-purple-500/30 rounded-full px-1 py-1"
+      className="fixed top-4 right-4 z-50 flex items-center gap-1 bg-gray-800/50 backdrop-blur-xs border border-purple-500/30 rounded-full px-1 py-1"
       role="group"
       aria-label={t.switcher.label}
     >

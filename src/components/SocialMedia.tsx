@@ -6,7 +6,7 @@ import { delayStyle } from "../utils/animation";
 const STAGGER_MS = 100;
 
 const ICON_SHADOW =
-  "drop-shadow-[0_2px_1px_theme(colors.brand)] hover:drop-shadow-[0_2px_2px_theme(colors.brand)]";
+  "drop-shadow-[0_2px_1px_var(--color-brand)] hover:drop-shadow-[0_2px_2px_var(--color-brand)]";
 
 const SocialLink = ({ label, href, viewbox, path }: SocialLinkData) => (
   <a
@@ -33,8 +33,8 @@ const SocialMedia = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex h-[100px] sticky py-5 items-center justify-between gap-5">
-      <ul className="flex space-x-7">
+    <div className="flex h-25 sticky py-5 items-center justify-between gap-5">
+      <ul className="flex gap-7">
         {socialLinks.map((link, index) => (
           <li key={link.id} style={delayStyle(index * STAGGER_MS)}>
             <SocialLink {...link} />

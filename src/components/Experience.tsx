@@ -27,7 +27,7 @@ const Experience = () => {
             return (
               <li key={id}>
                 <a
-                  className="bg-section flex flex-col gap-5 transition-all p-7 pl-5 rounded-lg group hover:shadow bg-purple-900 bg-opacity-25 hover:bg-opacity-45 cursor-pointer"
+                  className="bg-section flex flex-col gap-5 transition-all p-7 pl-5 rounded-lg group hover:shadow-sm bg-purple-900/25 hover:bg-purple-900/45 cursor-pointer"
                   style={delayStyle(delay)}
                   href={link}
                   target="_blank"

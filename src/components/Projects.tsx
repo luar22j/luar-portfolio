@@ -34,7 +34,7 @@ const Projects = () => {
                   href={link}
                   target="_blank"
                   rel="noreferrer"
-                  className={`bg-section flex justify-start gap-5 transition-all rounded-lg group hover:shadow bg-purple-900 bg-opacity-25 hover:bg-opacity-45 w-full h-full ${
+                  className={`bg-section flex justify-start gap-5 transition-all rounded-lg group hover:shadow-sm bg-purple-900/25 hover:bg-purple-900/45 w-full h-full ${
                     isFeatured ? "p-7 md:p-8" : "p-7"
                   }`}
                 >
@@ -47,7 +47,7 @@ const Projects = () => {
                   >
                     <div
                       style={delayStyle(delay)}
-                      className={`bg-section aspect-video relative overflow-hidden rounded-lg transition-all shadow-[1px_1px_3px_theme(colors.brand)] w-full ${
+                      className={`bg-section aspect-video relative overflow-hidden rounded-lg transition-all shadow-[1px_1px_3px_var(--color-brand)] w-full ${
                         isFeatured ? "lg:w-1/2" : ""
                       }`}
                     >
@@ -69,7 +69,7 @@ const Projects = () => {
                             {t.projects.featured}
                           </span>
                         )}
-                        <h3 className="text-xl font-bold text-gray-200 break-words">
+                        <h3 className="text-xl font-bold text-gray-200 wrap-break-word">
                           {pick(name)}
                         </h3>
                         <ExternalLinkIcon />

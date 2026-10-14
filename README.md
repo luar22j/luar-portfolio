@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+# Luar Jaén · Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal bilingual (EN/ES) portfolio built with React, TypeScript, Vite and Tailwind CSS, deployed on Vercel.
 
-Currently, two official plugins are available:
+## Scripts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+| Command           | Description                          |
+| ----------------- | ------------------------------------ |
+| `npm run dev`     | Start the dev server                 |
+| `npm run build`   | Type-check and build for production  |
+| `npm run preview` | Preview the production build         |
+| `npm run lint`    | Lint with ESLint                     |
+| `npm run knip`    | Find unused files, exports and deps  |
 
-## Expanding the ESLint configuration
+## Project structure
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```
+src/
+├── components/   Page sections; shared pieces live in components/ui
+├── data/         Content as JSON (typed in content.ts) and the skills list
+├── hooks/        useRevealOnScroll
+├── i18n/         Language config, provider and UI strings (translations.ts)
+├── types/        Content types
+└── assets/css/   Animations and global styles
+public/
+├── documents/    CV PDFs
+└── img/          Profile and project images
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Editing content
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Experience, education, projects, social links:** edit the JSON files in `src/data`. Texts are `{ "en": "…", "es": "…" }` objects.
+- **UI strings:** `src/i18n/translations.ts`.
+- **Skills:** `src/data/skills.ts`.
+- **CV:** drop the PDFs in `public/documents`, then update the links in `src/i18n/translations.ts` (`cv.href`, one per language) and the `/cv` rewrite in `vercel.json`.

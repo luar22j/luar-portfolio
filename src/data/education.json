@@ -1,5 +1,6 @@
-{
-  "daw": {
+[
+  {
+    "id": "daw",
     "title": {
       "es": "Desarrollo de Aplicaciones Web (DAW)",
       "en": "Web Application Development (DAW)"
@@ -44,4 +45,4 @@
     ],
     "link": "https://www.inscamidemar.cat/"
   }
-}
+]

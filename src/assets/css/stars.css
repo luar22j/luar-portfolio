@@ -17,6 +17,13 @@
   animation: twinkle 5s infinite;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .star {
+    animation: none;
+    opacity: 0.6;
+  }
+}
+
 @keyframes twinkle {
   0%,
   100% {

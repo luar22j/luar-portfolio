@@ -1,69 +1,36 @@
-import { useEffect, useRef } from "react";
-import educationData from "../../public/data/education.json";
+import SectionTitle from "./ui/SectionTitle";
+import TechList from "./ui/TechList";
+import { education } from "../data/content";
+import { useRevealOnScroll } from "../hooks/useRevealOnScroll";
 import { useTranslation } from "../i18n/useTranslation";
-import type { Localized } from "../i18n/config";
-import "../assets/css/section.css";
+import { delayStyle, revealClass } from "../utils/animation";
 
-interface EducationItem {
-  title: Localized<string>;
-  description: Localized<string>;
-  years: Localized<string>;
-  technologies?: string[];
-  link: string;
-}
+const ITEM_STAGGER_MS = 200;
 
 const Education = () => {
   const { t, pick } = useTranslation();
-  const educationRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("about-visible");
-          }
-        });
-      },
-      { threshold: 0.2 }
-    );
-
-    if (educationRef.current) {
-      observer.observe(educationRef.current);
-    }
-
-    return () => {
-      if (educationRef.current) {
-        observer.unobserve(educationRef.current);
-      }
-    };
-  }, []);
+  const { ref, isVisible } = useRevealOnScroll<HTMLElement>();
 
   return (
-    <div
-      ref={educationRef}
-      className="flex flex-col gap-8 text-justify about-hidden"
+    <section
+      ref={ref}
+      aria-labelledby="education-title"
+      className={`flex flex-col gap-8 text-justify ${revealClass(isVisible)}`}
     >
-      <h1 className="title-animation drop-shadow-[0_2px_10px_#4723a5] text-3xl font-bold text-gray-200">
-        {t.education.title}
-      </h1>
+      <SectionTitle id="education-title">{t.education.title}</SectionTitle>
 
-      <div className="flex flex-col gap-8 w-full">
-        {Object.entries(educationData).map(([key, item], index) => {
-          const { title, description, years, technologies, link } =
-            item as EducationItem & { link: string };
-          const delay = `${index * 200}ms`;
-
-          return (
-            <div
-              key={key}
+      <ul className="flex flex-col gap-8 w-full">
+        {education.map(
+          ({ id, title, description, years, technologies, link }, index) => (
+            <li
+              key={id}
               className="text-animation flex flex-col gap-4"
-              style={{ "--delay": delay } as React.CSSProperties}
+              style={delayStyle(index * ITEM_STAGGER_MS)}
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2">
-                <h2 className="text-[#E0E0E0] font-bold text-xl">
+                <h3 className="text-[#E0E0E0] font-bold text-xl">
                   {pick(title)}
-                </h2>
+                </h3>
                 <div className="flex flex-col md:text-right">
                   <span className="text-gray-400 text-sm">{pick(years)}</span>
                   <a
@@ -79,27 +46,12 @@ const Education = () => {
 
               <p className="text-gray-200">{pick(description)}</p>
 
-              {technologies && (
-                <div className="flex flex-wrap gap-3">
-                  {technologies.map((name, techIndex) => (
-                    <span
-                      key={techIndex}
-                      className="py-1 px-4 rounded-full
-                        text-gray-200 bg-gradient-to-r
-                        from-purple-500 via-purple-600
-                        to-purple-700 shadow-lg
-                        shadow-purple-500/50"
-                    >
-                      {name}
-                    </span>
-                  ))}
-                </div>
-              )}
-            </div>
-          );
-        })}
-      </div>
-    </div>
+              {technologies && <TechList technologies={technologies} />}
+            </li>
+          ),
+        )}
+      </ul>
+    </section>
   );
 };
 

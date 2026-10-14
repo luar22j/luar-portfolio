@@ -1,5 +1,6 @@
-{
-  "waffled": {
+[
+  {
+    "id": "waffled",
     "name": {
       "es": "Waffled",
       "en": "Waffled"
@@ -10,7 +11,7 @@
     },
     "image": "waffled.svg",
     "link": "https://waffled.es/",
-    "tecnologies": [
+    "technologies": [
       "React",
       "TypeScript",
       "TailwindCSS",
@@ -20,7 +21,8 @@
       "Docker"
     ]
   },
-  "e-commerce": {
+  {
+    "id": "e-commerce",
     "name": {
       "es": "Burgers & Roll",
       "en": "Burgers & Roll"
@@ -31,7 +33,7 @@
     },
     "image": "burgers.webp",
     "link": "https://github.com/luar22j/e-commerce",
-    "tecnologies": [
+    "technologies": [
       "Laravel",
       "Spring Boot",
       "TailwindCSS",
@@ -40,7 +42,8 @@
       "MySQL"
     ]
   },
-  "primark-project": {
+  {
+    "id": "primark-project",
     "name": {
       "es": "Proyecto Primark",
       "en": "Primark Project"
@@ -51,9 +54,15 @@
     },
     "image": "primark.webp",
     "link": "https://github.com/luar22j/primark-project",
-    "tecnologies": ["React", "Leaflet", "TypeScript", "TailwindCSS"]
+    "technologies": [
+      "React",
+      "Leaflet",
+      "TypeScript",
+      "TailwindCSS"
+    ]
   },
-  "password-generator": {
+  {
+    "id": "password-generator",
     "name": {
       "es": "Generador de Contraseñas",
       "en": "Password Generator"
@@ -64,9 +73,14 @@
     },
     "image": "password.webp",
     "link": "https://github.com/luar22j/password-generator",
-    "tecnologies": ["React", "JavaScript", "TailwindCSS"]
+    "technologies": [
+      "React",
+      "JavaScript",
+      "TailwindCSS"
+    ]
   },
-  "photo_gallery": {
+  {
+    "id": "photo_gallery",
     "name": {
       "es": "Galería de Fotos",
       "en": "Photo Gallery"
@@ -77,9 +91,14 @@
     },
     "image": "photo_gallery.webp",
     "link": "https://github.com/luar22j/photo-gallery",
-    "tecnologies": ["Vue.js", "Ionic", "TypeScript"]
+    "technologies": [
+      "Vue.js",
+      "Ionic",
+      "TypeScript"
+    ]
   },
-  "js-project": {
+  {
+    "id": "js-project",
     "name": {
       "es": "Proyecto JS",
       "en": "JS Project"
@@ -90,6 +109,11 @@
     },
     "image": "js.webp",
     "link": "https://github.com/luar22j/js-project",
-    "tecnologies": ["JavaScript", "jQuery", "HTML", "CSS"]
+    "technologies": [
+      "JavaScript",
+      "jQuery",
+      "HTML",
+      "CSS"
+    ]
   }
-}
+]

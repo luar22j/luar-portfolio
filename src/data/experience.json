@@ -1,5 +1,6 @@
-{
-  "jaestic": {
+[
+  {
+    "id": "jaestic",
     "title": {
       "es": "Full Stack Developer - Jaestic SL",
       "en": "Full Stack Developer - Jaestic SL"
@@ -26,7 +27,8 @@
     ],
     "link": "https://jaestic.com/"
   },
-  "performance-labs": {
+  {
+    "id": "performance-labs",
     "title": {
       "es": "Full Stack Developer - Performance Labs SL",
       "en": "Full Stack Developer - Performance Labs SL"
@@ -52,7 +54,8 @@
     ],
     "link": "https://www.contentgenio.ai/"
   },
-  "goil": {
+  {
+    "id": "goil",
     "title": {
       "es": "Frontend Developer - Goil Security SL",
       "en": "Frontend Developer - Goil Security SL"
@@ -83,4 +86,4 @@
     ],
     "link": "https://www.goil.app/"
   }
-}
+]

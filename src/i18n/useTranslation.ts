@@ -1,4 +1,4 @@
-import { useLanguageContext } from "./LanguageProvider";
+import { useLanguageContext } from "./languageContext";
 import { ui } from "./translations";
 import type { Localized } from "./config";
 
